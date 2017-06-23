@@ -1,6 +1,6 @@
 {
-  "name": "razzle",
-  "version": "0.6.3",
+  "name": "cars-razzle",
+  "version": "0.6.3-webpack3",
   "description": "Build isomorphic Javascript applications with ease.",
   "repository": "git@github.com:jaredpalmer/razzle.git",
   "author": "jaredpalmer",
@@ -34,8 +34,11 @@
     "start-server-webpack-plugin": "^2.2.0",
     "style-loader": "^0.17.0",
     "url-loader": "^0.5.8",
-    "webpack": "^2.5.1",
+    "webpack": "^3.0.0",
     "webpack-dev-server": "^2.4.5",
     "webpack-node-externals": "^1.6.0"
+  },
+  "publishConfig": {
+    "registry": "https://repository.cars.com/artifactory/api/npm/npm-local/"
   }
 }
